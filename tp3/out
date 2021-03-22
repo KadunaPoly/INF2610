@@ -1,0 +1,1456 @@
+xecve("./commlab", ["./commlab"], 0x7ffcb99cc298 /* 113 vars */) = 0
+brk(NULL)                               = 0x12a6000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffc69f825e0) = -1 EINVAL (Invalid argument)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9bbe73d000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/lttng/lib/tls/haswell/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/lttng/lib/tls/haswell", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/lttng/lib/tls/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/lttng/lib/tls", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/lttng/lib/haswell/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/lttng/lib/haswell", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/lttng/lib/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/lttng/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/lttv/lib/tls/haswell/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/lttv/lib/tls/haswell", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/lttv/lib/tls/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/lttv/lib/tls", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/lttv/lib/haswell/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/lttv/lib/haswell", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/lttv/lib/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/lttv/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/mpich/lib/tls/haswell/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/mpich/lib/tls/haswell", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/mpich/lib/tls/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/mpich/lib/tls", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib64/mpich/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/mpich/lib/haswell/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib64/mpich/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/mpich/lib/haswell", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib64/mpich/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/mpich/lib/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib64/mpich/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/mpich/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF2610/pth/lib/tls/haswell/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF2610/pth/lib/tls/haswell", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF2610/pth/lib/tls/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF2610/pth/lib/tls", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF2610/pth/lib/haswell/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF2610/pth/lib/haswell", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF2610/pth/lib/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF2610/pth/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/pth/lib/tls/haswell/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/pth/lib/tls/haswell", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/pth/lib/tls/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/pth/lib/tls", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/pth/lib/haswell/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/pth/lib/haswell", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/pth/lib/x86_64", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cours/INF8601/pth/lib", 0x7ffc69f81830) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=373616, ...}) = 0
+mmap(NULL, 373616, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f9bbe6e1000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@@\2\0\0\0\0\0"..., 832) = 832
+lseek(3, 792, SEEK_SET)                 = 792
+read(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\304\206x\335gRZ\226\217\200\373\365y >{"..., 68) = 68
+fstat(3, {st_mode=S_IFREG|0755, st_size=6699224, ...}) = 0
+lseek(3, 792, SEEK_SET)                 = 792
+read(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\304\206x\335gRZ\226\217\200\373\365y >{"..., 68) = 68
+lseek(3, 864, SEEK_SET)                 = 864
+read(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+mmap(NULL, 1857568, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9bbe51b000
+mprotect(0x7f9bbe53d000, 1679360, PROT_NONE) = 0
+mmap(0x7f9bbe53d000, 1363968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000) = 0x7f9bbe53d000
+mmap(0x7f9bbe68a000, 311296, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16f000) = 0x7f9bbe68a000
+mmap(0x7f9bbe6d7000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7f9bbe6d7000
+mmap(0x7f9bbe6dd000, 14368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9bbe6dd000
+close(3)                                = 0
+arch_prctl(ARCH_SET_FS, 0x7f9bbe73e5c0) = 0
+mprotect(0x7f9bbe6d7000, 16384, PROT_READ) = 0
+mprotect(0x404000, 4096, PROT_READ)     = 0
+mprotect(0x7f9bbe769000, 4096, PROT_READ) = 0
+munmap(0x7f9bbe6e1000, 373616)          = 0
+unlink("/tmp/commlab_autograde")        = -1 ENOENT (No such file or directory)
+brk(NULL)                               = 0x12a6000
+brk(0x12c7000)                          = 0x12c7000
+brk(NULL)                               = 0x12c7000
+openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3
+lseek(3, 0, SEEK_END)                   = 0
+close(3)                                = 0
+unlink("puzzle3/tmpfile")               = 0
+openat(AT_FDCWD, "puzzle3/tmpfile", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3
+lseek(3, 0, SEEK_END)                   = 0
+close(3)                                = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+write(1, "--------------------\n", 21)  = 21
+write(1, "Starting puzzle 1...\n", 21)  = 21
+write(1, "--------------------\n", 21)  = 21
+write(1, "\n", 1)                       = 1
+rt_sigaction(SIGINT, {sa_handler=0x401476, sa_mask=[INT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f9bbe552f00}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+getpid()                                = 7948
+openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3
+lseek(3, 0, SEEK_END)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+write(3, "root_1: 7948\n", 13)          = 13
+close(3)                                = 0
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLDstrace: Process 7949 attached
+, child_tidptr=0x7f9bbe73e890) = 7949
+[pid  7948] clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+[pid  7949] getpid()                    = 7949
+strace: Process 7950 attached
+[pid  7949] setpgid(7949, 7949 <unfinished ...>
+[pid  7948] <... clone resumed>, child_tidptr=0x7f9bbe73e890) = 7950
+[pid  7949] <... setpgid resumed>)      = 0
+[pid  7948] wait4(-1,  <unfinished ...>
+[pid  7950] getpid()                    = 7950
+[pid  7949] mknod("/tmp/pipe_8f99c269", S_IFIFO|0600) = 0
+[pid  7949] mknod("/tmp/pipe_d1d81bb6", S_IFIFO|0600 <unfinished ...>
+[pid  7950] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666 <unfinished ...>
+[pid  7949] <... mknod resumed>)        = 0
+[pid  7950] <... openat resumed>)       = 3
+[pid  7949] clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+[pid  7950] lseek(3, 0, SEEK_END)       = 13
+[pid  7950] fstat(3,  <unfinished ...>
+[pid  7949] <... clone resumed>, child_tidptr=0x7f9bbe73e890) = 7951
+[pid  7950] <... fstat resumed>{st_mode=S_IFREG|0644, st_size=13, ...}) = 0
+strace: Process 7951 attached
+[pid  7949] openat(AT_FDCWD, "/tmp/pipe_8f99c269", O_WRONLY <unfinished ...>
+[pid  7950] write(3, "root_1: 7950\n", 13) = 13
+[pid  7950] close(3 <unfinished ...>
+[pid  7951] execve("./puzzle1/exchanger", ["exchanger"], 0x7ffc69f826c8 /* 113 vars */ <unfinished ...>
+[pid  7950] <... close resumed>)        = 0
+[pid  7950] nanosleep({tv_sec=3, tv_nsec=0},  <unfinished ...>
+[pid  7951] <... execve resumed>)       = 0
+[pid  7951] brk(NULL)                   = 0x16ed000
+[pid  7951] arch_prctl(0x3001 /* ARCH_??? */, 0x7ffc70428ed0) = -1 EINVAL (Invalid argument)
+[pid  7951] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc997a71000
+[pid  7951] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/lttng/lib/tls/haswell/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/lttng/lib/tls/haswell", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/lttng/lib/tls/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/lttng/lib/tls", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/lttng/lib/haswell/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/lttng/lib/haswell", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/lttng/lib/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/lttng/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/lttv/lib/tls/haswell/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/lttv/lib/tls/haswell", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/lttv/lib/tls/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/lttv/lib/tls", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/lttv/lib/haswell/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/lttv/lib/haswell", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/lttv/lib/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/lttv/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7951] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/lib64/mpich/lib/tls/haswell/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/lib64/mpich/lib/tls/haswell", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/lib64/mpich/lib/tls/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/lib64/mpich/lib/tls", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/lib64/mpich/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/lib64/mpich/lib/haswell/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/lib64/mpich/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/lib64/mpich/lib/haswell", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/lib64/mpich/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/lib64/mpich/lib/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/lib64/mpich/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/lib64/mpich/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF2610/pth/lib/tls/haswell/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF2610/pth/lib/tls/haswell", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF2610/pth/lib/tls/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF2610/pth/lib/tls", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF2610/pth/lib/haswell/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF2610/pth/lib/haswell", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF2610/pth/lib/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF2610/pth/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/pth/lib/tls/haswell/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/pth/lib/tls/haswell", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/pth/lib/tls/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/pth/lib/tls", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/pth/lib/haswell/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/pth/lib/haswell", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/pth/lib/x86_64", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7951] stat("/usr/local/cours/INF8601/pth/lib", 0x7ffc70428120) = -1 ENOENT (No such file or directory)
+[pid  7951] openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+[pid  7951] fstat(3, {st_mode=S_IFREG|0644, st_size=373616, ...}) = 0
+[pid  7951] mmap(NULL, 373616, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc997a15000
+[pid  7951] close(3)                    = 0
+[pid  7951] openat(AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid  7951] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@@\2\0\0\0\0\0"..., 832) = 832
+[pid  7951] lseek(3, 792, SEEK_SET)     = 792
+[pid  7951] read(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\304\206x\335gRZ\226\217\200\373\365y >{"..., 68) = 68
+[pid  7951] fstat(3, {st_mode=S_IFREG|0755, st_size=6699224, ...}) = 0
+[pid  7951] lseek(3, 792, SEEK_SET)     = 792
+[pid  7951] read(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\304\206x\335gRZ\226\217\200\373\365y >{"..., 68) = 68
+[pid  7951] lseek(3, 864, SEEK_SET)     = 864
+[pid  7951] read(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+[pid  7951] mmap(NULL, 1857568, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc99784f000
+[pid  7951] mprotect(0x7fc997871000, 1679360, PROT_NONE) = 0
+[pid  7951] mmap(0x7fc997871000, 1363968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000) = 0x7fc997871000
+[pid  7951] mmap(0x7fc9979be000, 311296, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16f000) = 0x7fc9979be000
+[pid  7951] mmap(0x7fc997a0b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7fc997a0b000
+[pid  7951] mmap(0x7fc997a11000, 14368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc997a11000
+[pid  7951] close(3)                    = 0
+[pid  7951] arch_prctl(ARCH_SET_FS, 0x7fc997a725c0) = 0
+[pid  7951] mprotect(0x7fc997a0b000, 16384, PROT_READ) = 0
+[pid  7951] mprotect(0x602000, 4096, PROT_READ) = 0
+[pid  7951] mprotect(0x7fc997a9d000, 4096, PROT_READ) = 0
+[pid  7951] munmap(0x7fc997a15000, 373616) = 0
+[pid  7951] rt_sigaction(SIGUSR1, {sa_handler=0x401570, sa_mask=[USR1], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc997886f00}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+[pid  7951] rt_sigaction(SIGUSR2, {sa_handler=0x401570, sa_mask=[USR2], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc997886f00}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+[pid  7951] fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+[pid  7951] brk(NULL)                   = 0x16ed000
+[pid  7951] brk(0x170e000)              = 0x170e000
+[pid  7951] brk(NULL)                   = 0x170e000
+[pid  7951] write(1, "exchanger: Hi! I'm the exchanger"..., 33) = 33
+[pid  7951] write(1, "exchanger: Give me one token and"..., 55) = 55
+[pid  7951] openat(AT_FDCWD, "/tmp/pipe_8f99c269", O_RDONLY) = 3
+[pid  7951] write(1, "exchanger: Input pipe opened!\n", 30) = 30
+[pid  7949] <... openat resumed>)       = 3
+[pid  7951] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666) = 4
+[pid  7951] lseek(4, 0, SEEK_END <unfinished ...>
+[pid  7949] openat(AT_FDCWD, "/tmp/pipe_d1d81bb6", O_RDONLY <unfinished ...>
+[pid  7951] <... lseek resumed>)        = 26
+[pid  7951] fstat(4, {st_mode=S_IFREG|0644, st_size=26, ...}) = 0
+[pid  7951] write(4, "puzzle1: 1\n", 11) = 11
+[pid  7951] close(4)                    = 0
+[pid  7951] openat(AT_FDCWD, "/tmp/pipe_d1d81bb6", O_WRONLY) = 4
+[pid  7951] write(1, "exchanger: Reading from input pi"..., 38) = 38
+[pid  7949] <... openat resumed>)       = 4
+[pid  7951] read(3,  <unfinished ...>
+[pid  7949] kill(7951, SIGUSR2 <unfinished ...>
+[pid  7951] <... read resumed>0x7ffc70428e20, 100) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+[pid  7949] <... kill resumed>)         = 0
+[pid  7951] --- SIGUSR2 {si_signo=SIGUSR2, si_code=SI_USER, si_pid=7949, si_uid=27273} ---
+[pid  7949] write(3, "b1cf201ffa61\0", 13 <unfinished ...>
+[pid  7951] write(1, "exchanger: Received correct sign"..., 36 <unfinished ...>
+[pid  7949] <... write resumed>)        = 13
+[pid  7951] <... write resumed>)        = 36
+[pid  7949] read(4,  <unfinished ...>
+[pid  7951] rt_sigreturn({mask=[]})     = 0
+[pid  7951] read(3, "b1cf201ffa61\0", 100) = 13
+[pid  7951] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666) = 5
+[pid  7951] lseek(5, 0, SEEK_END)       = 37
+[pid  7951] fstat(5, {st_mode=S_IFREG|0644, st_size=37, ...}) = 0
+[pid  7951] write(5, "puzzle1: 2\n", 11) = 11
+[pid  7951] close(5)                    = 0
+[pid  7951] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666) = 5
+[pid  7951] lseek(5, 0, SEEK_END)       = 48
+[pid  7951] fstat(5, {st_mode=S_IFREG|0644, st_size=48, ...}) = 0
+[pid  7951] write(5, "puzzle1: 3\n", 11) = 11
+[pid  7951] close(5)                    = 0
+[pid  7951] write(1, "exchanger: Received correct toke"..., 35) = 35
+[pid  7951] write(1, "exchanger: Output pipe opened!\n", 31) = 31
+[pid  7951] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666) = 5
+[pid  7951] lseek(5, 0, SEEK_END)       = 59
+[pid  7951] fstat(5, {st_mode=S_IFREG|0644, st_size=59, ...}) = 0
+[pid  7951] write(5, "puzzle1: 4\n", 11) = 11
+[pid  7951] close(5)                    = 0
+[pid  7951] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666) = 5
+[pid  7951] lseek(5, 0, SEEK_END)       = 70
+[pid  7951] fstat(5, {st_mode=S_IFREG|0644, st_size=70, ...}) = 0
+[pid  7951] write(5, "puzzle1: 5\n", 11) = 11
+[pid  7951] close(5)                    = 0
+[pid  7951] write(1, "exchanger: Trying to send messag"..., 42) = 42
+[pid  7951] write(1, "exchanger: Message sent back!\n", 30) = 30
+[pid  7951] write(4, "[Sponsored Link] INF2610 Your Wa"..., 45 <unfinished ...>
+[pid  7949] <... read resumed>"[Sponsored Link] INF2610 Your Wa"..., 80) = 45
+[pid  7951] <... write resumed>)        = 45
+[pid  7951] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666) = 5
+[pid  7949] write(1, "checkExchangerMessage: Checking "..., 87 <unfinished ...>
+[pid  7951] lseek(5, 0, SEEK_END <unfinished ...>
+[pid  7949] <... write resumed>)        = 87
+[pid  7951] <... lseek resumed>)        = 81
+[pid  7949] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666 <unfinished ...>
+[pid  7951] fstat(5,  <unfinished ...>
+[pid  7949] <... openat resumed>)       = 5
+[pid  7951] <... fstat resumed>{st_mode=S_IFREG|0644, st_size=81, ...}) = 0
+[pid  7949] lseek(5, 0, SEEK_END <unfinished ...>
+[pid  7951] write(5, "puzzle1: 6\n", 11 <unfinished ...>
+[pid  7949] <... lseek resumed>)        = 81
+[pid  7951] <... write resumed>)        = 11
+[pid  7949] fstat(5,  <unfinished ...>
+[pid  7951] close(5 <unfinished ...>
+[pid  7949] <... fstat resumed>{st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+[pid  7951] <... close resumed>)        = 0
+[pid  7951] write(1, "exchanger: Closing input pipe\n", 30 <unfinished ...>
+[pid  7949] write(5, "puzzle1: 7\n", 11 <unfinished ...>
+[pid  7951] <... write resumed>)        = 30
+[pid  7949] <... write resumed>)        = 11
+[pid  7951] close(3 <unfinished ...>
+[pid  7949] close(5 <unfinished ...>
+[pid  7951] <... close resumed>)        = 0
+[pid  7949] <... close resumed>)        = 0
+[pid  7951] write(1, "exchanger: Closing output pipe\n", 31 <unfinished ...>
+[pid  7949] write(1, "checkExchangerMessage: Congratul"..., 68 <unfinished ...>
+[pid  7951] <... write resumed>)        = 31
+[pid  7949] <... write resumed>)        = 68
+[pid  7951] close(4 <unfinished ...>
+[pid  7949] read(4,  <unfinished ...>
+[pid  7951] <... close resumed>)        = 0
+[pid  7949] <... read resumed>"", 80)   = 0
+[pid  7951] exit_group(0 <unfinished ...>
+[pid  7949] wait4(-1,  <unfinished ...>
+[pid  7951] <... exit_group resumed>)   = ?
+[pid  7951] +++ exited with 0 +++
+[pid  7949] <... wait4 resumed>NULL, 0, NULL) = 7951
+[pid  7949] --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7951, si_uid=27273, si_status=0, si_utime=0, si_stime=0} ---
+[pid  7949] unlink("/tmp/pipe_8f99c269") = 0
+[pid  7949] unlink("/tmp/pipe_d1d81bb6") = 0
+[pid  7949] exit_group(0)               = ?
+[pid  7949] +++ exited with 0 +++
+[pid  7948] <... wait4 resumed>NULL, 0, NULL) = 7949
+[pid  7948] --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7949, si_uid=27273, si_status=0, si_utime=0, si_stime=0} ---
+[pid  7948] kill(7950, SIGINT)          = 0
+[pid  7950] <... nanosleep resumed>{tv_sec=2, tv_nsec=986795120}) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+[pid  7948] wait4(-1,  <unfinished ...>
+[pid  7950] --- SIGINT {si_signo=SIGINT, si_code=SI_USER, si_pid=7948, si_uid=27273} ---
+[pid  7950] kill(-7949, SIGKILL)        = -1 ESRCH (No such process)
+[pid  7950] exit_group(1)               = ?
+[pid  7950] +++ exited with 1 +++
+<... wait4 resumed>NULL, 0, NULL)       = 7950
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7950, si_uid=27273, si_status=1, si_utime=0, si_stime=0} ---
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "--------------------\n", 21)  = 21
+write(1, "Starting puzzle 2...\n", 21)  = 21
+write(1, "--------------------\n", 21)  = 21
+write(1, "\n", 1)                       = 1
+rt_sigaction(SIGINT, {sa_handler=0x401476, sa_mask=[INT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f9bbe552f00}, {sa_handler=0x401476, sa_mask=[INT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f9bbe552f00}, 8) = 0
+getpid()                                = 7948
+openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3
+lseek(3, 0, SEEK_END)                   = 103
+fstat(3, {st_mode=S_IFREG|0644, st_size=103, ...}) = 0
+write(3, "root_2: 7948\n", 13)          = 13
+close(3)                                = 0
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLDstrace: Process 7952 attached
+, child_tidptr=0x7f9bbe73e890) = 7952
+[pid  7948] clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+[pid  7952] getpid()                    = 7952
+strace: Process 7953 attached
+[pid  7952] setpgid(7952, 7952 <unfinished ...>
+[pid  7948] <... clone resumed>, child_tidptr=0x7f9bbe73e890) = 7953
+[pid  7953] getpid( <unfinished ...>
+[pid  7952] <... setpgid resumed>)      = 0
+[pid  7948] wait4(-1,  <unfinished ...>
+[pid  7953] <... getpid resumed>)       = 7953
+[pid  7952] pipe([3, 4])                = 0
+[pid  7953] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666 <unfinished ...>
+[pid  7952] clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+[pid  7953] <... openat resumed>)       = 3
+[pid  7953] lseek(3, 0, SEEK_END)       = 116
+[pid  7953] fstat(3, {st_mode=S_IFREG|0644, st_size=116, ...}) = 0
+[pid  7952] <... clone resumed>, child_tidptr=0x7f9bbe73e890) = 7954
+strace: Process 7954 attached
+[pid  7953] write(3, "root_2: 7953\n", 13 <unfinished ...>
+[pid  7952] close(3)                    = 0
+[pid  7953] <... write resumed>)        = 13
+[pid  7954] close(4 <unfinished ...>
+[pid  7952] write(4, "\204", 1 <unfinished ...>
+[pid  7954] <... close resumed>)        = 0
+[pid  7953] close(3 <unfinished ...>
+[pid  7954] execve("./puzzle2/telegraph", ["telegraph", "3"], 0x7ffc69f826c8 /* 113 vars */ <unfinished ...>
+[pid  7952] <... write resumed>)        = 1
+[pid  7953] <... close resumed>)        = 0
+[pid  7952] write(4, "\177", 1)         = 1
+[pid  7952] write(4, "{", 1)            = 1
+[pid  7952] write(4, "u", 1 <unfinished ...>
+[pid  7953] nanosleep({tv_sec=3, tv_nsec=0},  <unfinished ...>
+[pid  7952] <... write resumed>)        = 1
+[pid  7952] write(4, "~", 1)            = 1
+[pid  7952] write(4, "!", 1)            = 1
+[pid  7952] write(4, "y", 1)            = 1
+[pid  7952] write(4, "\203", 1)         = 1
+[pid  7952] write(4, "!", 1)            = 1
+[pid  7952] write(4, "s", 1)            = 1
+[pid  7952] write(4, "q", 1)            = 1
+[pid  7952] write(4, "\234", 1)         = 1
+[pid  7952] write(4, "\230", 1)         = 1
+[pid  7952] write(4, "\234", 1)         = 1
+[pid  7952] write(4, "r", 1)            = 1
+[pid  7952] write(4, "t", 1)            = 1
+[pid  7952] write(4, "\226", 1)         = 1
+[pid  7952] write(4, "\234", 1)         = 1
+[pid  7952] write(4, "v", 1)            = 1
+[pid  7952] write(4, "\231", 1)         = 1
+[pid  7952] write(4, "u", 1)            = 1
+[pid  7952] write(4, "!", 1)            = 1
+[pid  7952] write(4, "u", 1)            = 1
+[pid  7952] write(4, "~", 1)            = 1
+[pid  7952] write(4, "t", 1)            = 1
+[pid  7952] write(4, "\0", 1)           = 1
+[pid  7952] close(4)                    = 0
+[pid  7952] wait4(-1,  <unfinished ...>
+[pid  7954] <... execve resumed>)       = 0
+[pid  7954] brk(NULL)                   = 0x146d000
+[pid  7954] arch_prctl(0x3001 /* ARCH_??? */, 0x7ffdcf2f6960) = -1 EINVAL (Invalid argument)
+[pid  7954] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6cfd2bf000
+[pid  7954] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/lttng/lib/tls/haswell/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/lttng/lib/tls/haswell", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/lttng/lib/tls/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/lttng/lib/tls", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/lttng/lib/haswell/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/lttng/lib/haswell", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/lttng/lib/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/lttng/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/lttv/lib/tls/haswell/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/lttv/lib/tls/haswell", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/lttv/lib/tls/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/lttv/lib/tls", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/lttv/lib/haswell/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/lttv/lib/haswell", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/lttv/lib/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/lttv/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7954] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/lib64/mpich/lib/tls/haswell/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/lib64/mpich/lib/tls/haswell", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/lib64/mpich/lib/tls/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/lib64/mpich/lib/tls", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/lib64/mpich/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/lib64/mpich/lib/haswell/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/lib64/mpich/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/lib64/mpich/lib/haswell", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/lib64/mpich/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/lib64/mpich/lib/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/lib64/mpich/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/lib64/mpich/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF2610/pth/lib/tls/haswell/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF2610/pth/lib/tls/haswell", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF2610/pth/lib/tls/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF2610/pth/lib/tls", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF2610/pth/lib/haswell/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF2610/pth/lib/haswell", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF2610/pth/lib/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF2610/pth/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/pth/lib/tls/haswell/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/pth/lib/tls/haswell", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/pth/lib/tls/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/pth/lib/tls", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/pth/lib/haswell/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/pth/lib/haswell", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/pth/lib/x86_64", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7954] stat("/usr/local/cours/INF8601/pth/lib", 0x7ffdcf2f5bb0) = -1 ENOENT (No such file or directory)
+[pid  7954] openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+[pid  7954] fstat(4, {st_mode=S_IFREG|0644, st_size=373616, ...}) = 0
+[pid  7954] mmap(NULL, 373616, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f6cfd263000
+[pid  7954] close(4)                    = 0
+[pid  7954] openat(AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 4
+[pid  7954] read(4, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@@\2\0\0\0\0\0"..., 832) = 832
+[pid  7954] lseek(4, 792, SEEK_SET)     = 792
+[pid  7954] read(4, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\304\206x\335gRZ\226\217\200\373\365y >{"..., 68) = 68
+[pid  7954] fstat(4, {st_mode=S_IFREG|0755, st_size=6699224, ...}) = 0
+[pid  7954] lseek(4, 792, SEEK_SET)     = 792
+[pid  7954] read(4, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\304\206x\335gRZ\226\217\200\373\365y >{"..., 68) = 68
+[pid  7954] lseek(4, 864, SEEK_SET)     = 864
+[pid  7954] read(4, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+[pid  7954] mmap(NULL, 1857568, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f6cfd09d000
+[pid  7954] mprotect(0x7f6cfd0bf000, 1679360, PROT_NONE) = 0
+[pid  7954] mmap(0x7f6cfd0bf000, 1363968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x22000) = 0x7f6cfd0bf000
+[pid  7954] mmap(0x7f6cfd20c000, 311296, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x16f000) = 0x7f6cfd20c000
+[pid  7954] mmap(0x7f6cfd259000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1bb000) = 0x7f6cfd259000
+[pid  7954] mmap(0x7f6cfd25f000, 14368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6cfd25f000
+[pid  7954] close(4)                    = 0
+[pid  7954] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6cfd09b000
+[pid  7954] arch_prctl(ARCH_SET_FS, 0x7f6cfd2c05c0) = 0
+[pid  7954] mprotect(0x7f6cfd259000, 16384, PROT_READ) = 0
+[pid  7954] mprotect(0x601000, 4096, PROT_READ) = 0
+[pid  7954] mprotect(0x7f6cfd2eb000, 4096, PROT_READ) = 0
+[pid  7954] munmap(0x7f6cfd263000, 373616) = 0
+[pid  7954] fcntl(3, F_GETFD)           = 0
+[pid  7954] brk(NULL)                   = 0x146d000
+[pid  7954] brk(0x148e000)              = 0x148e000
+[pid  7954] brk(NULL)                   = 0x148e000
+[pid  7954] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666) = 4
+[pid  7954] lseek(4, 0, SEEK_END)       = 129
+[pid  7954] fstat(4, {st_mode=S_IFREG|0644, st_size=129, ...}) = 0
+[pid  7954] write(4, "puzzle2: 1\n", 11) = 11
+[pid  7954] close(4)                    = 0
+[pid  7954] fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+[pid  7954] write(1, "telegraph: Reading in pipe until"..., 49) = 49
+[pid  7954] read(3, "\204", 1)          = 1
+[pid  7954] read(3, "\177", 1)          = 1
+[pid  7954] read(3, "{", 1)             = 1
+[pid  7954] read(3, "u", 1)             = 1
+[pid  7954] read(3, "~", 1)             = 1
+[pid  7954] read(3, "!", 1)             = 1
+[pid  7954] read(3, "y", 1)             = 1
+[pid  7954] read(3, "\203", 1)          = 1
+[pid  7954] read(3, "!", 1)             = 1
+[pid  7954] read(3, "s", 1)             = 1
+[pid  7954] read(3, "q", 1)             = 1
+[pid  7954] read(3, "\234", 1)          = 1
+[pid  7954] read(3, "\230", 1)          = 1
+[pid  7954] read(3, "\234", 1)          = 1
+[pid  7954] read(3, "r", 1)             = 1
+[pid  7954] read(3, "t", 1)             = 1
+[pid  7954] read(3, "\226", 1)          = 1
+[pid  7954] read(3, "\234", 1)          = 1
+[pid  7954] read(3, "v", 1)             = 1
+[pid  7954] read(3, "\231", 1)          = 1
+[pid  7954] read(3, "u", 1)             = 1
+[pid  7954] read(3, "!", 1)             = 1
+[pid  7954] read(3, "u", 1)             = 1
+[pid  7954] read(3, "~", 1)             = 1
+[pid  7954] read(3, "t", 1)             = 1
+[pid  7954] read(3, "\0", 1)            = 1
+[pid  7954] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666) = 4
+[pid  7954] lseek(4, 0, SEEK_END)       = 140
+[pid  7954] fstat(4, {st_mode=S_IFREG|0644, st_size=140, ...}) = 0
+[pid  7954] write(4, "puzzle2: 2\n", 11) = 11
+[pid  7954] close(4)                    = 0
+[pid  7954] write(1, "telegraph: Received message \"tok"..., 56) = 56
+[pid  7954] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666) = 4
+[pid  7954] lseek(4, 0, SEEK_END)       = 151
+[pid  7954] fstat(4, {st_mode=S_IFREG|0644, st_size=151, ...}) = 0
+[pid  7954] write(4, "puzzle2: 3\n", 11) = 11
+[pid  7954] close(4)                    = 0
+[pid  7954] write(1, "instructor: Well done!\n", 23) = 23
+[pid  7954] write(1, "telegraph: Closing file descript"..., 35) = 35
+[pid  7954] close(3)                    = 0
+[pid  7954] exit_group(0)               = ?
+[pid  7954] +++ exited with 0 +++
+[pid  7952] <... wait4 resumed>NULL, 0, NULL) = 7954
+[pid  7952] --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7954, si_uid=27273, si_status=0, si_utime=0, si_stime=0} ---
+[pid  7952] exit_group(0)               = ?
+[pid  7952] +++ exited with 0 +++
+[pid  7948] <... wait4 resumed>NULL, 0, NULL) = 7952
+[pid  7948] --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7952, si_uid=27273, si_status=0, si_utime=0, si_stime=0} ---
+[pid  7948] kill(7953, SIGINT)          = 0
+[pid  7953] <... nanosleep resumed>{tv_sec=2, tv_nsec=989591541}) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+[pid  7948] wait4(-1,  <unfinished ...>
+[pid  7953] --- SIGINT {si_signo=SIGINT, si_code=SI_USER, si_pid=7948, si_uid=27273} ---
+[pid  7953] kill(-7952, SIGKILL)        = -1 ESRCH (No such process)
+[pid  7953] exit_group(1)               = ?
+[pid  7953] +++ exited with 1 +++
+<... wait4 resumed>NULL, 0, NULL)       = 7953
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7953, si_uid=27273, si_status=1, si_utime=0, si_stime=0} ---
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "--------------------\n", 21)  = 21
+write(1, "Starting puzzle 3...\n", 21)  = 21
+write(1, "--------------------\n", 21)  = 21
+write(1, "\n", 1)                       = 1
+rt_sigaction(SIGINT, {sa_handler=0x401476, sa_mask=[INT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f9bbe552f00}, {sa_handler=0x401476, sa_mask=[INT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f9bbe552f00}, 8) = 0
+getpid()                                = 7948
+openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3
+lseek(3, 0, SEEK_END)                   = 162
+fstat(3, {st_mode=S_IFREG|0644, st_size=162, ...}) = 0
+write(3, "root_3: 7948\n", 13)          = 13
+close(3)                                = 0
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9bbe73e890) = 7955
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLDstrace: Process 7956 attached
+, child_tidptr=0x7f9bbe73e890) = 7956
+[pid  7948] wait4(-1,  <unfinished ...>
+[pid  7956] getpid()                    = 7956
+[pid  7956] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3
+[pid  7956] lseek(3, 0, SEEK_END)       = 175
+[pid  7956] fstat(3, {st_mode=S_IFREG|0644, st_size=175, ...}) = 0
+[pid  7956] write(3, "root_3: 7956\n", 13) = 13
+[pid  7956] close(3)                    = 0
+[pid  7956] nanosleep({tv_sec=3, tv_nsec=0}, strace: Process 7955 attached
+ <unfinished ...>
+[pid  7955] getpid()                    = 7955
+[pid  7955] setpgid(7955, 7955)         = 0
+[pid  7955] openat(AT_FDCWD, "./puzzle3/tmpfile", O_RDWR|O_CREAT, 0600) = 3
+[pid  7955] clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9bbe73e890) = 7957
+[pid  7955] wait4(-1, strace: Process 7957 attached
+ <unfinished ...>
+[pid  7957] dup2(3, 2)                  = 2
+[pid  7957] execve("./puzzle3/exc1", ["exc1"], 0x7ffc69f826c8 /* 113 vars */) = 0
+[pid  7957] brk(NULL)                   = 0x1000000
+[pid  7957] arch_prctl(0x3001 /* ARCH_??? */, 0x7fff56102600) = -1 EINVAL (Invalid argument)
+[pid  7957] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fce150e7000
+[pid  7957] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/lttng/lib/tls/haswell/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/lttng/lib/tls/haswell", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/lttng/lib/tls/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/lttng/lib/tls", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/lttng/lib/haswell/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/lttng/lib/haswell", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/lttng/lib/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/lttng/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/lttv/lib/tls/haswell/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/lttv/lib/tls/haswell", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/lttv/lib/tls/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/lttv/lib/tls", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/lttv/lib/haswell/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/lttv/lib/haswell", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/lttv/lib/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/lttv/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7957] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/lib64/mpich/lib/tls/haswell/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/lib64/mpich/lib/tls/haswell", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/lib64/mpich/lib/tls/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/lib64/mpich/lib/tls", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/lib64/mpich/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/lib64/mpich/lib/haswell/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/lib64/mpich/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/lib64/mpich/lib/haswell", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/lib64/mpich/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/lib64/mpich/lib/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/lib64/mpich/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/lib64/mpich/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF2610/pth/lib/tls/haswell/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF2610/pth/lib/tls/haswell", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF2610/pth/lib/tls/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF2610/pth/lib/tls", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF2610/pth/lib/haswell/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF2610/pth/lib/haswell", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF2610/pth/lib/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF2610/pth/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/pth/lib/tls/haswell/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/pth/lib/tls/haswell", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/pth/lib/tls/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/pth/lib/tls", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/pth/lib/haswell/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/pth/lib/haswell", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/pth/lib/x86_64", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7957] stat("/usr/local/cours/INF8601/pth/lib", 0x7fff56101850) = -1 ENOENT (No such file or directory)
+[pid  7957] openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+[pid  7957] fstat(4, {st_mode=S_IFREG|0644, st_size=373616, ...}) = 0
+[pid  7957] mmap(NULL, 373616, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fce1508b000
+[pid  7957] close(4)                    = 0
+[pid  7957] openat(AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 4
+[pid  7957] read(4, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@@\2\0\0\0\0\0"..., 832) = 832
+[pid  7957] lseek(4, 792, SEEK_SET)     = 792
+[pid  7957] read(4, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\304\206x\335gRZ\226\217\200\373\365y >{"..., 68) = 68
+[pid  7957] fstat(4, {st_mode=S_IFREG|0755, st_size=6699224, ...}) = 0
+[pid  7957] lseek(4, 792, SEEK_SET)     = 792
+[pid  7957] read(4, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\304\206x\335gRZ\226\217\200\373\365y >{"..., 68) = 68
+[pid  7957] lseek(4, 864, SEEK_SET)     = 864
+[pid  7957] read(4, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+[pid  7957] mmap(NULL, 1857568, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fce14ec5000
+[pid  7957] mprotect(0x7fce14ee7000, 1679360, PROT_NONE) = 0
+[pid  7957] mmap(0x7fce14ee7000, 1363968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x22000) = 0x7fce14ee7000
+[pid  7957] mmap(0x7fce15034000, 311296, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x16f000) = 0x7fce15034000
+[pid  7957] mmap(0x7fce15081000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1bb000) = 0x7fce15081000
+[pid  7957] mmap(0x7fce15087000, 14368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fce15087000
+[pid  7957] close(4)                    = 0
+[pid  7957] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fce14ec3000
+[pid  7957] arch_prctl(ARCH_SET_FS, 0x7fce150e85c0) = 0
+[pid  7957] mprotect(0x7fce15081000, 16384, PROT_READ) = 0
+[pid  7957] mprotect(0x602000, 4096, PROT_READ) = 0
+[pid  7957] mprotect(0x7fce15113000, 4096, PROT_READ) = 0
+[pid  7957] munmap(0x7fce1508b000, 373616) = 0
+[pid  7957] nanosleep({tv_sec=0, tv_nsec=10000000}, NULL) = 0
+[pid  7957] brk(NULL)                   = 0x1000000
+[pid  7957] brk(0x1021000)              = 0x1021000
+[pid  7957] brk(NULL)                   = 0x1021000
+[pid  7957] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666) = 4
+[pid  7957] lseek(4, 0, SEEK_END)       = 188
+[pid  7957] fstat(4, {st_mode=S_IFREG|0644, st_size=188, ...}) = 0
+[pid  7957] write(4, "puzzle3: 0_exc1_launched\n", 25) = 25
+[pid  7957] close(4)                    = 0
+[pid  7957] nanosleep({tv_sec=0, tv_nsec=30000000}, NULL) = 0
+[pid  7957] write(2, "any language. (Larry Wall)", 26) = 26
+[pid  7957] nanosleep({tv_sec=0, tv_nsec=10000000}, NULL) = 0
+[pid  7957] fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+[pid  7957] write(1, "Real programmers can write ", 27) = 27
+[pid  7957] exit_group(0)               = ?
+[pid  7957] +++ exited with 0 +++
+[pid  7955] <... wait4 resumed>NULL, 0, NULL) = 7957
+[pid  7955] --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7957, si_uid=27273, si_status=0, si_utime=0, si_stime=0} ---
+[pid  7955] pipe([4, 5])                = 0
+[pid  7955] clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9bbe73e890) = 7958
+strace: Process 7958 attached
+[pid  7955] clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLDstrace: Process 7959 attached
+ <unfinished ...>
+[pid  7958] dup2(5, 1 <unfinished ...>
+[pid  7955] <... clone resumed>, child_tidptr=0x7f9bbe73e890) = 7959
+[pid  7958] <... dup2 resumed>)         = 1
+[pid  7959] dup2(4, 0 <unfinished ...>
+[pid  7955] close(4 <unfinished ...>
+[pid  7959] <... dup2 resumed>)         = 0
+[pid  7958] dup2(5, 2 <unfinished ...>
+[pid  7955] <... close resumed>)        = 0
+[pid  7959] close(5 <unfinished ...>
+[pid  7958] <... dup2 resumed>)         = 2
+[pid  7955] close(5 <unfinished ...>
+[pid  7959] <... close resumed>)        = 0
+[pid  7958] close(4 <unfinished ...>
+[pid  7955] <... close resumed>)        = 0
+[pid  7955] wait4(-1,  <unfinished ...>
+[pid  7959] execve("./puzzle3/exc3", ["exc3"], 0x7ffc69f826c8 /* 113 vars */ <unfinished ...>
+[pid  7958] <... close resumed>)        = 0
+[pid  7958] execve("./puzzle3/exc2", ["exc2"], 0x7ffc69f826c8 /* 113 vars */ <unfinished ...>
+[pid  7959] <... execve resumed>)       = 0
+[pid  7959] brk(NULL)                   = 0x1ed0000
+[pid  7958] <... execve resumed>)       = 0
+[pid  7959] arch_prctl(0x3001 /* ARCH_??? */, 0x7fff09e48c70) = -1 EINVAL (Invalid argument)
+[pid  7958] brk(NULL <unfinished ...>
+[pid  7959] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+[pid  7958] <... brk resumed>)          = 0x652000
+[pid  7959] <... mmap resumed>)         = 0x7f15ee691000
+[pid  7959] access("/etc/ld.so.preload", R_OK <unfinished ...>
+[pid  7958] arch_prctl(0x3001 /* ARCH_??? */, 0x7ffdfd73b6a0 <unfinished ...>
+[pid  7959] <... access resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] <... arch_prctl resumed>)   = -1 EINVAL (Invalid argument)
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7958] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/lttng/lib/tls/haswell/x86_64",  <unfinished ...>
+[pid  7958] <... mmap resumed>)         = 0x7f76577a4000
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] access("/etc/ld.so.preload", R_OK <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... access resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/lttng/lib/tls/haswell",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/lttng/lib/tls/haswell/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/lttng/lib/tls/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/lttng/lib/tls/haswell",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/lttng/lib/tls",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/lttng/lib/tls/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/lttng/lib/haswell/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/lttng/lib/tls",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/lttng/lib/haswell",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/lttng/lib/haswell/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/lttng/lib/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/lttng/lib/haswell",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/lttng/lib",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>{st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7958] stat("/usr/local/cours/INF8601/lttng/lib/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/lttv/lib/tls/haswell/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/lttng/lib",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>{st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/lttv/lib/tls/haswell",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/lttv/lib/tls/haswell/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/lttv/lib/tls/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/lttv/lib/tls/haswell",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/lttv/lib/tls",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/lttv/lib/tls/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/lttv/lib/haswell/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/lttv/lib/tls",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/lttv/lib/haswell",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/lttv/lib/haswell/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/lttv/lib/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/lttv/lib/haswell",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/lttv/lib",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>{st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7958] stat("/usr/local/cours/INF8601/lttv/lib/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/lib64/mpich/lib/tls/haswell/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/lttv/lib",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>{st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/lib64/mpich/lib/tls/haswell",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/lib64/mpich/lib/tls/haswell/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/lib64/mpich/lib/tls/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/lib64/mpich/lib/tls/haswell",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/lib64/mpich/lib/tls",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/lib64/mpich/lib/tls/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/lib64/mpich/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/lib64/mpich/lib/haswell/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/lib64/mpich/lib/tls",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/lib64/mpich/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/lib64/mpich/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/lib64/mpich/lib/haswell",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/lib64/mpich/lib/haswell/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/lib64/mpich/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/lib64/mpich/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/lib64/mpich/lib/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/lib64/mpich/lib/haswell",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/lib64/mpich/lib/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/lib64/mpich/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/lib64/mpich/lib",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>{st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7958] stat("/usr/lib64/mpich/lib/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/lib64/mpich/lib/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF2610/pth/lib/tls/haswell/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/lib64/mpich/lib",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>{st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF2610/pth/lib/tls/haswell",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF2610/pth/lib/tls/haswell/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF2610/pth/lib/tls/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF2610/pth/lib/tls/haswell",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF2610/pth/lib/tls",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF2610/pth/lib/tls/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF2610/pth/lib/haswell/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF2610/pth/lib/tls",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF2610/pth/lib/haswell",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF2610/pth/lib/haswell/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF2610/pth/lib/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF2610/pth/lib/haswell",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF2610/pth/lib",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>{st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7958] stat("/usr/local/cours/INF2610/pth/lib/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/pth/lib/tls/haswell/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF2610/pth/lib",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>{st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/pth/lib/tls/haswell",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/pth/lib/tls/haswell/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/pth/lib/tls/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/pth/lib/tls/haswell",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/pth/lib/tls",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/pth/lib/tls/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/pth/lib/haswell/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/pth/lib/tls",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/pth/lib/haswell",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/pth/lib/haswell/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/pth/lib/x86_64",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/pth/lib/haswell",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] stat("/usr/local/cours/INF8601/pth/lib",  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... stat resumed>0x7fff09e47ec0) = -1 ENOENT (No such file or directory)
+[pid  7958] stat("/usr/local/cours/INF8601/pth/lib/x86_64",  <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... openat resumed>)       = 5
+[pid  7958] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] fstat(5,  <unfinished ...>
+[pid  7958] <... openat resumed>)       = -1 ENOENT (No such file or directory)
+[pid  7959] <... fstat resumed>{st_mode=S_IFREG|0644, st_size=373616, ...}) = 0
+[pid  7958] stat("/usr/local/cours/INF8601/pth/lib",  <unfinished ...>
+[pid  7959] mmap(NULL, 373616, PROT_READ, MAP_PRIVATE, 5, 0 <unfinished ...>
+[pid  7958] <... stat resumed>0x7ffdfd73a8f0) = -1 ENOENT (No such file or directory)
+[pid  7959] <... mmap resumed>)         = 0x7f15ee635000
+[pid  7958] openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] close(5 <unfinished ...>
+[pid  7958] <... openat resumed>)       = 4
+[pid  7959] <... close resumed>)        = 0
+[pid  7958] fstat(4, {st_mode=S_IFREG|0644, st_size=373616, ...}) = 0
+[pid  7959] openat(AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7958] mmap(NULL, 373616, PROT_READ, MAP_PRIVATE, 4, 0 <unfinished ...>
+[pid  7959] <... openat resumed>)       = 5
+[pid  7958] <... mmap resumed>)         = 0x7f7657748000
+[pid  7959] read(5,  <unfinished ...>
+[pid  7958] close(4 <unfinished ...>
+[pid  7959] <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@@\2\0\0\0\0\0"..., 832) = 832
+[pid  7958] <... close resumed>)        = 0
+[pid  7959] lseek(5, 792, SEEK_SET)     = 792
+[pid  7958] openat(AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid  7959] read(5,  <unfinished ...>
+[pid  7958] <... openat resumed>)       = 4
+[pid  7959] <... read resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\304\206x\335gRZ\226\217\200\373\365y >{"..., 68) = 68
+[pid  7958] read(4,  <unfinished ...>
+[pid  7959] fstat(5,  <unfinished ...>
+[pid  7958] <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@@\2\0\0\0\0\0"..., 832) = 832
+[pid  7959] <... fstat resumed>{st_mode=S_IFREG|0755, st_size=6699224, ...}) = 0
+[pid  7958] lseek(4, 792, SEEK_SET <unfinished ...>
+[pid  7959] lseek(5, 792, SEEK_SET <unfinished ...>
+[pid  7958] <... lseek resumed>)        = 792
+[pid  7959] <... lseek resumed>)        = 792
+[pid  7958] read(4,  <unfinished ...>
+[pid  7959] read(5,  <unfinished ...>
+[pid  7958] <... read resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\304\206x\335gRZ\226\217\200\373\365y >{"..., 68) = 68
+[pid  7959] <... read resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\304\206x\335gRZ\226\217\200\373\365y >{"..., 68) = 68
+[pid  7958] fstat(4,  <unfinished ...>
+[pid  7959] lseek(5, 864, SEEK_SET <unfinished ...>
+[pid  7958] <... fstat resumed>{st_mode=S_IFREG|0755, st_size=6699224, ...}) = 0
+[pid  7959] <... lseek resumed>)        = 864
+[pid  7958] lseek(4, 792, SEEK_SET <unfinished ...>
+[pid  7959] read(5,  <unfinished ...>
+[pid  7958] <... lseek resumed>)        = 792
+[pid  7959] <... read resumed>"\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+[pid  7958] read(4,  <unfinished ...>
+[pid  7959] mmap(NULL, 1857568, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 5, 0 <unfinished ...>
+[pid  7958] <... read resumed>"\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\304\206x\335gRZ\226\217\200\373\365y >{"..., 68) = 68
+[pid  7959] <... mmap resumed>)         = 0x7f15ee46f000
+[pid  7958] lseek(4, 864, SEEK_SET <unfinished ...>
+[pid  7959] mprotect(0x7f15ee491000, 1679360, PROT_NONE <unfinished ...>
+[pid  7958] <... lseek resumed>)        = 864
+[pid  7959] <... mprotect resumed>)     = 0
+[pid  7958] read(4,  <unfinished ...>
+[pid  7959] mmap(0x7f15ee491000, 1363968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x22000 <unfinished ...>
+[pid  7958] <... read resumed>"\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+[pid  7959] <... mmap resumed>)         = 0x7f15ee491000
+[pid  7958] mmap(NULL, 1857568, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0 <unfinished ...>
+[pid  7959] mmap(0x7f15ee5de000, 311296, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x16f000 <unfinished ...>
+[pid  7958] <... mmap resumed>)         = 0x7f7657582000
+[pid  7959] <... mmap resumed>)         = 0x7f15ee5de000
+[pid  7958] mprotect(0x7f76575a4000, 1679360, PROT_NONE <unfinished ...>
+[pid  7959] mmap(0x7f15ee62b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1bb000 <unfinished ...>
+[pid  7958] <... mprotect resumed>)     = 0
+[pid  7959] <... mmap resumed>)         = 0x7f15ee62b000
+[pid  7958] mmap(0x7f76575a4000, 1363968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x22000 <unfinished ...>
+[pid  7959] mmap(0x7f15ee631000, 14368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+[pid  7958] <... mmap resumed>)         = 0x7f76575a4000
+[pid  7959] <... mmap resumed>)         = 0x7f15ee631000
+[pid  7958] mmap(0x7f76576f1000, 311296, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x16f000 <unfinished ...>
+[pid  7959] close(5 <unfinished ...>
+[pid  7958] <... mmap resumed>)         = 0x7f76576f1000
+[pid  7959] <... close resumed>)        = 0
+[pid  7958] mmap(0x7f765773e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1bb000 <unfinished ...>
+[pid  7959] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+[pid  7958] <... mmap resumed>)         = 0x7f765773e000
+[pid  7959] <... mmap resumed>)         = 0x7f15ee46d000
+[pid  7958] mmap(0x7f7657744000, 14368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+[pid  7959] arch_prctl(ARCH_SET_FS, 0x7f15ee6925c0 <unfinished ...>
+[pid  7958] <... mmap resumed>)         = 0x7f7657744000
+[pid  7959] <... arch_prctl resumed>)   = 0
+[pid  7958] close(4)                    = 0
+[pid  7958] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+[pid  7959] mprotect(0x7f15ee62b000, 16384, PROT_READ <unfinished ...>
+[pid  7958] <... mmap resumed>)         = 0x7f7657580000
+[pid  7959] <... mprotect resumed>)     = 0
+[pid  7958] arch_prctl(ARCH_SET_FS, 0x7f76577a55c0 <unfinished ...>
+[pid  7959] mprotect(0x602000, 4096, PROT_READ <unfinished ...>
+[pid  7958] <... arch_prctl resumed>)   = 0
+[pid  7959] <... mprotect resumed>)     = 0
+[pid  7959] mprotect(0x7f15ee6bd000, 4096, PROT_READ) = 0
+[pid  7959] munmap(0x7f15ee635000, 373616 <unfinished ...>
+[pid  7958] mprotect(0x7f765773e000, 16384, PROT_READ <unfinished ...>
+[pid  7959] <... munmap resumed>)       = 0
+[pid  7958] <... mprotect resumed>)     = 0
+[pid  7958] mprotect(0x602000, 4096, PROT_READ <unfinished ...>
+[pid  7959] nanosleep({tv_sec=0, tv_nsec=10000000},  <unfinished ...>
+[pid  7958] <... mprotect resumed>)     = 0
+[pid  7958] mprotect(0x7f76577d0000, 4096, PROT_READ) = 0
+[pid  7958] munmap(0x7f7657748000, 373616) = 0
+[pid  7958] nanosleep({tv_sec=0, tv_nsec=10000000},  <unfinished ...>
+[pid  7959] <... nanosleep resumed>NULL) = 0
+[pid  7958] <... nanosleep resumed>NULL) = 0
+[pid  7959] brk(NULL)                   = 0x1ed0000
+[pid  7959] brk(0x1ef1000 <unfinished ...>
+[pid  7958] brk(NULL <unfinished ...>
+[pid  7959] <... brk resumed>)          = 0x1ef1000
+[pid  7958] <... brk resumed>)          = 0x652000
+[pid  7959] brk(NULL <unfinished ...>
+[pid  7958] brk(0x673000 <unfinished ...>
+[pid  7959] <... brk resumed>)          = 0x1ef1000
+[pid  7958] <... brk resumed>)          = 0x673000
+[pid  7958] brk(NULL <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666 <unfinished ...>
+[pid  7958] <... brk resumed>)          = 0x673000
+[pid  7959] <... openat resumed>)       = 5
+[pid  7959] lseek(5, 0, SEEK_END <unfinished ...>
+[pid  7958] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666 <unfinished ...>
+[pid  7959] <... lseek resumed>)        = 213
+[pid  7958] <... openat resumed>)       = 4
+[pid  7959] fstat(5,  <unfinished ...>
+[pid  7958] lseek(4, 0, SEEK_END <unfinished ...>
+[pid  7959] <... fstat resumed>{st_mode=S_IFREG|0644, st_size=213, ...}) = 0
+[pid  7958] <... lseek resumed>)        = 213
+[pid  7959] write(5, "puzzle3: 0_exc3_launched\n", 25 <unfinished ...>
+[pid  7958] fstat(4,  <unfinished ...>
+[pid  7959] <... write resumed>)        = 25
+[pid  7958] <... fstat resumed>{st_mode=S_IFREG|0644, st_size=238, ...}) = 0
+[pid  7959] close(5)                    = 0
+[pid  7958] write(4, "puzzle3: 0_exc2_launched\n", 25 <unfinished ...>
+[pid  7959] read(0,  <unfinished ...>
+[pid  7958] <... write resumed>)        = 25
+[pid  7958] close(4)                    = 0
+[pid  7958] write(2, "assembly ", 9)    = 9
+[pid  7959] <... read resumed>"assembly ", 300) = 9
+[pid  7958] exit_group(0 <unfinished ...>
+[pid  7959] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666 <unfinished ...>
+[pid  7958] <... exit_group resumed>)   = ?
+[pid  7959] <... openat resumed>)       = 5
+[pid  7959] lseek(5, 0, SEEK_END)       = 263
+[pid  7959] fstat(5, {st_mode=S_IFREG|0644, st_size=263, ...}) = 0
+[pid  7959] write(5, "puzzle3: 1_1_stdin\n", 19) = 19
+[pid  7959] close(5)                    = 0
+[pid  7959] fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+[pid  7959] write(1, "assembly code in ", 17) = 17
+[pid  7959] exit_group(0)               = ?
+[pid  7958] +++ exited with 0 +++
+[pid  7955] <... wait4 resumed>NULL, 0, NULL) = 7958
+[pid  7955] --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7958, si_uid=27273, si_status=0, si_utime=0, si_stime=0} ---
+[pid  7955] wait4(-1,  <unfinished ...>
+[pid  7959] +++ exited with 0 +++
+[pid  7955] <... wait4 resumed>NULL, 0, NULL) = 7959
+[pid  7955] --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7959, si_uid=27273, si_status=0, si_utime=0, si_stime=0} ---
+[pid  7955] clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9bbe73e890) = 7960
+strace: Process 7960 attached
+[pid  7955] wait4(-1,  <unfinished ...>
+[pid  7960] dup2(1, 2)                  = 2
+[pid  7960] dup2(3, 0)                  = 0
+[pid  7960] execve("./puzzle3/exc4", ["exc4"], 0x7ffc69f826c8 /* 113 vars */) = 0
+[pid  7960] brk(NULL)                   = 0x112a000
+[pid  7960] arch_prctl(0x3001 /* ARCH_??? */, 0x7fff5f75f1f0) = -1 EINVAL (Invalid argument)
+[pid  7960] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f82331ad000
+[pid  7960] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/lttng/lib/tls/haswell/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/lttng/lib/tls/haswell", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/lttng/lib/tls/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/lttng/lib/tls", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/lttng/lib/haswell/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/lttng/lib/haswell", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/lttng/lib/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttng/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/lttng/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/lttv/lib/tls/haswell/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/lttv/lib/tls/haswell", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/lttv/lib/tls/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/lttv/lib/tls", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/lttv/lib/haswell/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/lttv/lib/haswell", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/lttv/lib/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/lttv/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/lttv/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7960] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/lib64/mpich/lib/tls/haswell/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/lib64/mpich/lib/tls/haswell", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/lib64/mpich/lib/tls/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/lib64/mpich/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/lib64/mpich/lib/tls", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/lib64/mpich/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/lib64/mpich/lib/haswell/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/lib64/mpich/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/lib64/mpich/lib/haswell", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/lib64/mpich/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/lib64/mpich/lib/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/lib64/mpich/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/lib64/mpich/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF2610/pth/lib/tls/haswell/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF2610/pth/lib/tls/haswell", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF2610/pth/lib/tls/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF2610/pth/lib/tls", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF2610/pth/lib/haswell/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF2610/pth/lib/haswell", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF2610/pth/lib/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF2610/pth/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF2610/pth/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/pth/lib/tls/haswell/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/pth/lib/tls/haswell", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/pth/lib/tls/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/pth/lib/tls", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/pth/lib/haswell/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/pth/lib/haswell", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/pth/lib/x86_64", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/usr/local/cours/INF8601/pth/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+[pid  7960] stat("/usr/local/cours/INF8601/pth/lib", 0x7fff5f75e440) = -1 ENOENT (No such file or directory)
+[pid  7960] openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+[pid  7960] fstat(4, {st_mode=S_IFREG|0644, st_size=373616, ...}) = 0
+[pid  7960] mmap(NULL, 373616, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f8233151000
+[pid  7960] close(4)                    = 0
+[pid  7960] openat(AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 4
+[pid  7960] read(4, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@@\2\0\0\0\0\0"..., 832) = 832
+[pid  7960] lseek(4, 792, SEEK_SET)     = 792
+[pid  7960] read(4, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\304\206x\335gRZ\226\217\200\373\365y >{"..., 68) = 68
+[pid  7960] fstat(4, {st_mode=S_IFREG|0755, st_size=6699224, ...}) = 0
+[pid  7960] lseek(4, 792, SEEK_SET)     = 792
+[pid  7960] read(4, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\304\206x\335gRZ\226\217\200\373\365y >{"..., 68) = 68
+[pid  7960] lseek(4, 864, SEEK_SET)     = 864
+[pid  7960] read(4, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+[pid  7960] mmap(NULL, 1857568, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f8232f8b000
+[pid  7960] mprotect(0x7f8232fad000, 1679360, PROT_NONE) = 0
+[pid  7960] mmap(0x7f8232fad000, 1363968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x22000) = 0x7f8232fad000
+[pid  7960] mmap(0x7f82330fa000, 311296, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x16f000) = 0x7f82330fa000
+[pid  7960] mmap(0x7f8233147000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1bb000) = 0x7f8233147000
+[pid  7960] mmap(0x7f823314d000, 14368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f823314d000
+[pid  7960] close(4)                    = 0
+[pid  7960] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8232f89000
+[pid  7960] arch_prctl(ARCH_SET_FS, 0x7f82331ae5c0) = 0
+[pid  7960] mprotect(0x7f8233147000, 16384, PROT_READ) = 0
+[pid  7960] mprotect(0x602000, 4096, PROT_READ) = 0
+[pid  7960] mprotect(0x7f82331d9000, 4096, PROT_READ) = 0
+[pid  7960] munmap(0x7f8233151000, 373616) = 0
+[pid  7960] nanosleep({tv_sec=0, tv_nsec=10000000}, NULL) = 0
+[pid  7960] brk(NULL)                   = 0x112a000
+[pid  7960] brk(0x114b000)              = 0x114b000
+[pid  7960] brk(NULL)                   = 0x114b000
+[pid  7960] openat(AT_FDCWD, "/tmp/commlab_autograde", O_WRONLY|O_CREAT|O_APPEND, 0666) = 4
+[pid  7960] lseek(4, 0, SEEK_END)       = 282
+[pid  7960] fstat(4, {st_mode=S_IFREG|0644, st_size=282, ...}) = 0
+[pid  7960] write(4, "puzzle3: 0_exc4_launched\n", 25) = 25
+[pid  7960] close(4)                    = 0
+[pid  7960] read(0, "", 300)            = 0
+[pid  7960] fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+[pid  7960] write(2, "exc4 error ", 11) = 11
+[pid  7960] write(1, "exc4 error ", 11) = 11
+[pid  7960] exit_group(1)               = ?
+[pid  7960] +++ exited with 1 +++
+[pid  7955] <... wait4 resumed>NULL, 0, NULL) = 7960
+[pid  7955] --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7960, si_uid=27273, si_status=1, si_utime=0, si_stime=0} ---
+[pid  7955] exit_group(0)               = ?
+[pid  7955] +++ exited with 0 +++
+[pid  7948] <... wait4 resumed>NULL, 0, NULL) = 7955
+[pid  7948] --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7955, si_uid=27273, si_status=0, si_utime=0, si_stime=0} ---
+[pid  7948] kill(7956, SIGINT)          = 0
+[pid  7956] <... nanosleep resumed>{tv_sec=2, tv_nsec=861351526}) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+[pid  7948] wait4(-1,  <unfinished ...>
+[pid  7956] --- SIGINT {si_signo=SIGINT, si_code=SI_USER, si_pid=7948, si_uid=27273} ---
+[pid  7956] kill(-7955, SIGKILL)        = -1 ESRCH (No such process)
+[pid  7956] exit_group(1)               = ?
+[pid  7956] +++ exited with 1 +++
+<... wait4 resumed>NULL, 0, NULL)       = 7956
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7956, si_uid=27273, si_status=1, si_utime=0, si_stime=0} ---
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+exit_group(0)                           = ?
++++ exited with 0 +++

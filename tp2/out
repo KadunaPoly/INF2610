@@ -1,0 +1,10 @@
+Couldn't stat /usr/share/xdg: No such file or directory
+__libc_start_main([ "./part2/level0" ] <unfinished ...>
+getpid()                                         = 19282
+__sprintf_chk(0x7ffd0d4f4fc0, 1, 50, 0x40178b)   = 35
+signal(SIGUSR1, 0x4013d0)                        = nil
+__printf_chk(1, 0x401820, 0x602188, 0)           = 51
+wait(nil)                                        = -1
+exit(1 <no return ...>
+--- SIGPIPE (Broken pipe) ---
++++ killed by SIGPIPE +++
