@@ -1,2 +1,2 @@
 # INF2610
-TPs d'INF2610
+Noyau d'un système d'exploitation
